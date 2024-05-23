@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: "Brush Script MT", cursive;
+    font-size:x-large;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8d96b6;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Different background colors for each item */
+.item1 {
+    background-color: #18a80d;
+}
+
+.item2 {
+    background-color: #d3e92c;
+}
+
+.item3 {
+    background-color: #594ce9;
+}
+
+.item4 {
+    background-color: #dc8214;
+}
+
+.nav-item + .nav-item {
+    margin-left: 5px; /* Add very small space between items */
+}
+
+.nav-item:hover {
+    opacity: 0.8;
+}
+
+.container h1 {
+    color: #170f0d;
+    font-family:"Brush Script MT", cursive;
+    font-size:xx-large;
+}
